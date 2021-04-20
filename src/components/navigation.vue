@@ -56,7 +56,7 @@
               alt="logo"
             />
             <img
-              src="../assets/images/dlogo.png"
+              src="../assets/images/bsc.png"
               class="header-brand-img desktop-logo mobile-dark"
               alt="logo"
             />
