@@ -9,7 +9,9 @@
                <p>BOOST <b>YOUR BSC</b> TRADING WITH THE MOST COMPREHENSIVE <b> TOOLS</b></p>
                <div class="banner-para"> <p >Real-time data analysis at the tips of your fingers: Chart, trade and research with <br>total efficiency to maximize your profit.</p></div>
               <div class="banner-btn-wrp">
-                <a href="/resources/BSCTradeWhitePaper.pdf" class="banner-go-to-btn">Whitepaper</a>
+                <a href="https://explorer.bsctrades.app/" class="banner-go-to-btn">Go to App</a>
+            
+
               </div>
              </div>
            </div>
@@ -29,7 +31,7 @@
           <span>A PLATFORM TO</span>
           <h3>SUPERCHARGE YOUR TRADING</h3>
           <p>With BSCTRADEs comprehensive trading tools you can anticipate market movements<br> and develop better trading strategies.</p>
-            <a href="#">Go to App</a>
+                <a href="/resources/BSCTradeWhitePaper.pdf" class="">Whitepaper</a>         
         </div>
         <div class="row">
           <div class="col-lg-3">
