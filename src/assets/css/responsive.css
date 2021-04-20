@@ -1,0 +1,382 @@
+@media only screen and (max-width: 1199px) {
+  
+}
+
+@media only screen and (max-width: 992px) {
+  .banner-bg {
+    padding: 80px 0px;
+}
+.wrp-banner-img{
+  margin-top: 50px;
+}
+.hor-menu .horizontalMenu > .horizontalMenu-list > li > a:hover {
+  color: #1f0045;
+}
+.box1 {
+  margin-top: 50px;
+}
+.box2 {
+  margin-top: 35px;
+}
+.box4 {
+  margin-top: 35px;
+}
+.tear-head > h3{
+  margin-bottom: 40px;
+}
+.tear2 {
+  margin-top: 35px;
+}
+.tear3 {
+  margin-top: 35px;
+}
+.features-box {
+  margin-bottom: 30px;
+}
+.f-mart {
+  margin-top: 0px;
+}
+.tear1 {
+  margin-top: 35px;
+}
+  .header {
+    display: block;
+  }
+  .stake-arean-content > p > br {
+    display: none;
+  }
+  .stakemt {
+    margin-top: 40px;
+  }
+  .key-f-content > p > br {
+    display: none;
+  }
+  .key-f-content {
+    padding-left: 0px;
+  }
+  .key-f-content > h3 > br {
+    display: none;
+  }
+  .features-list {
+    padding-left: 0px;
+    margin-top: 50px;
+  }
+  .features-list > ul > li > p > br {
+    display: none;
+  }
+  .memmrt {
+    margin-top: 40px;
+  }
+  .cl-reverse {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .team-content-area > h3 > br {
+    display: none;
+  }
+  .team-content-area > p > br {
+    display: none;
+  }
+  .team-content-area > p {
+    margin-bottom: 40px;
+  }
+  .stoke {
+    width: 100%;
+  }
+  .wrp-box {
+    height: auto;
+  }
+  #big-swap-sec {
+    padding: 80px 0px 40px 0px;
+  }
+  .wallet-img-box {
+    width: 70px;
+    height: 70px;
+  }
+  .form-box {
+    padding: 0px;
+  }
+  .card {
+    margin-bottom: 30px;
+  }
+  .mrt-plan {
+    margin-top: 30px;
+  }
+  .wideget-user-img {
+    width: 70px;
+    height: 70px;
+  }
+  #profile-sec {
+    margin-top: 80px;
+    margin-bottom: 40px;
+  }
+  .trending-sec {
+    margin-top: 80px;
+    margin-bottom: 30px;
+  }
+  .tabs-menu ul li a {
+    display: block;
+    padding: 6px 18px 6px 18px;
+  }
+  .inner-chart {
+    margin-top: 30px;
+  }
+  .tab-box {
+    margin-top: 30px;
+  }
+  .tab-menu-heading,
+  .panel-body,
+  .token-info-list,
+  .rating-box-wrp,
+  .inner-chart {
+    padding: 20px;
+  }
+  .price-right > p {
+    font-size: 18px;
+  }
+  .buy-price > span {
+    font-size: 13px;
+  }
+  .buy-price > p {
+    font-size: 13px;
+  }
+  .usdt-box2 > span {
+    font-size: 13px;
+  }
+  .usdt-box2 > p {
+    font-size: 15px;
+  }
+  .dollar > i {
+    font-size: 20px;
+  }
+  .inner-chart {
+    height: auto;
+  }
+  .trending-h {
+    font-size: 16px;
+  }
+
+  .logo-wrp {
+    display: none;
+  }
+  .mobile-header {
+    display: block;
+    padding: 8px 0;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    background: #1f0045;
+    border-bottom: 1px solid #1f0045;
+    top: 0;
+  }
+  .mobile-header .header-brand-img.mobile-light {
+    display: block;
+  }
+  .navresponsive-toggler {
+    padding: 2px;
+    display: none;
+  }
+  .banner-content > h3 {
+    font-size: 42px;
+    line-height: 50px;
+  }
+  .banner-content > p {
+    margin-top: 20px;
+  }
+
+  .wrp-newtrandig > p > br {
+    display: none;
+  }
+  #second-sec {
+    padding: 60px 0px;
+  }
+  .mrtbox {
+    margin-top: 30px;
+  }
+  .features-key > h3 {
+    font-size: 30px;
+  }
+  .chart-img-wrp {
+    width: 100%;
+    margin: auto;
+  }
+  .chart-img-wrp > img {
+    width: 100%;
+    margin-top: -30px;
+  }
+  #chart-sec {
+    background-color: #fff;
+    padding-bottom: 40px;
+  }
+  .head-membership > h3 {
+    font-size: 30px;
+  }
+  .head-membership > p {
+    font-size: 13px;
+  }
+  .head-partner > h3 {
+    font-size: 30px;
+  }
+  .roadmapn-head > h3 {
+    font-size: 30px;
+  }
+  .dark-theme .mobile-header {
+    background: #0b0c0f;
+    border-bottom: 1px solid #0b0c0f;
+    box-shadow: 0px 10px 10px rgb(16 21 31 / 56%);
+  }
+  .dark-theme .animated-arrow span {
+    background: #fff;
+  }
+  .dark-theme .animated-arrow span:after {
+    background: #fff;
+  }
+  .dark-theme .animated-arrow span:before {
+    background: #fff;
+  }
+  .dark-theme .mobile-light {
+    display: none !important;
+  }
+  .dark-theme .mobile-dark {
+    display: block !important;
+  }
+  .mobile-dark {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .mobile-key {
+    display: block;
+  }
+  .wrp-footer {
+    display: inherit;
+    justify-content: space-between;
+    text-align: center;
+}
+.social-list {
+
+  justify-content: center;
+  margin-top: 20px;
+}
+  .gotoapp{
+    border-radius: 100px! important;
+    margin-top: 20px! important;
+    line-height: 22px ! important;
+    color: #fff ! important;
+  }
+  .roadmaps-content-wrp{
+    display: none;
+  }
+  .roadmap-m{
+    display: block;
+  }
+  .dark-theme .banner-bg {
+    background-image: none;
+  }
+  .animated-arrow {
+    position: fixed;
+    right: 5px;
+    top: 20px;
+    z-index: 102;
+    transition: all 0.4s ease-in-out;
+}
+  
+  
+  .tab-menu-heading {
+    margin-top: 0px;
+  }
+  .social-trending-box {
+    margin-bottom: 30px;
+  }
+
+  .mobile-header {
+    box-shadow: 0px 10px 10px rgb(126 142 177 / 8%);
+  }
+  .desktop-key {
+    display: none;
+  }
+  .img-mr{
+    margin-right: 0px;
+    margin-bottom: 20px;
+  }
+  
+}
+
+
+@media only screen and (max-width: 480px) {
+  .banner-bg {
+    padding: 60px 0px;
+}
+.banner-content > p{
+  font-size: 28px;
+}
+.banner-para > p > br{
+  display: none;
+}
+.wrp-banner-img > img{
+  width: 100%;
+}
+.platform-content > h3 {
+  font-size: 22px;
+}
+.roadmaps-head > p > br{
+  display: none;
+}
+.platform-content > p >br{
+  display: none;
+}
+.box3 {
+  margin-top: 35px;
+}
+.tear-head > h3{
+  font-size: 23px;
+}
+.features-head > h3{
+  font-size: 24px;
+}
+.tokenomic-head > h3{
+  font-size: 24px;
+}
+.model-head > h3{
+  font-size: 24px;
+}
+.roadmaps-head > h3{
+  font-size: 24px;
+}
+  .slick-slider {
+    height: 70px;
+  }
+  .tab-menu-heading,
+  .panel-body,
+  .token-info-list,
+  .rating-box-wrp,
+  .inner-chart {
+    padding: 15px;
+  }
+  
+  .nav {
+    display: flex;
+    flex-wrap: nowrap;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  .flipbox_title > h3 {
+    font-size: 15px;
+  }
+  .flipbox_desc > p {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .panel-tabs-area > li > a {
+    padding: 10px 8px 10px 8px !important;
+  }
+  .read-more-btn{
+    min-width: 144px;
+  }
+  
+ 
+}

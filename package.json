@@ -1,15 +1,22 @@
 {
-  "name": "gameweb",
+  "name": "bsctrade",
   "version": "0.1.0",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "deploy": "aws --profile predictz --region us-east-1 s3 sync ./dist s3://bsctrades.app --delete"
   },
   "dependencies": {
+    "-": "0.0.1",
+    "apexcharts": "^3.25.0",
+    "chart.js": "^2.9.4",
     "core-js": "^3.6.5",
-    "vue": "^2.6.11"
+    "router": "^1.3.5",
+    "vue": "^2.6.12",
+    "vue-apexcharts": "^1.6.0",
+    "vue-router": "^3.5.1"
   },
   "devDependencies": {
     "@vue/cli-plugin-babel": "~4.5.0",
