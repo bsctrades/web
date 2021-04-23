@@ -107,7 +107,8 @@ body {
   line-height: 1.5;
   color: #25252a;
   text-align: left;
-  background-color: #f2f3f9;
+  
+  background-color: #1f0045;
 }
 .number-font {
   font-weight: 600 !important;

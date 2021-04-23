@@ -155,7 +155,7 @@
             <div class="features-box">
               <img src="../assets/images/sicon.png" />
               <h3>POOL EXPLORER</h3>
-              <p>Search for new pools, add or remove liquidity in a pair, find the best gems and avoid the scams.</p>
+              <p>Search for new pools, add or remove liquidity in a pair, find the best gems and avoid scam projects.</p>
             </div>
           </div>
           <div class="col-lg-4">
@@ -219,6 +219,55 @@
             <div class="round-img-wrp">
                <img src="../assets/images/box3.png" class="img-mr" />
               <img src="../assets/images/box2.png" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+     <section id="teams-sec">
+      <div class="container">
+        <div class="teams-head">
+          <h3>Meet Our Team</h3>
+        </div>
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="team-box">
+              <img src="../assets/images/team/Qasir.jpg" />
+              <h3>Qasir Khan</h3>
+              <p>Lead Developer</p>
+              <span> 
+                <!-- <a  target="_blank"  href="https://twitter.com/emkyh" > <i class="fab fa-twitter"></i> </a>  -->
+                <a target="_blank" href="https://www.linkedin.com/in/qasir-khan-7355871a2/" ><i class="fab fa-linkedin"></i> </a></span>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="team-box">
+              <img src="../assets/images/team/imran.jpg" />
+              <h3>Imran Ahmad</h3>
+              <p>CEO</p>
+              <span> 
+                <!-- <a  target="_blank"   href="https://twitter.com/ghazali_imran" > <i class="fab fa-twitter"></i> </a> -->
+                 <a target="_blank" href="https://www.linkedin.com/in/imran-ahmad-6a44a6109" ><i class="fab fa-linkedin"></i> </a></span>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="team-box">
+              <img src="../assets/images/team/mark.jpg" />
+              <h3>Mark Dean</h3>
+              <p>Full Stack Developer</p>
+              <span> 
+                <!-- <a href="javascript:void" > <i class="fab fa-twitter"></i> </a>  -->
+                <a target="_blank" href="https://www.linkedin.com/in/mark-dean-4a4a6b20b/" ><i class="fab fa-linkedin"></i> </a></span>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <div class="team-box">
+              <img src="../assets/images/team/thomas.jpg" />
+              <h3>Thomas Young</h3>
+              <p>Full Stack Developer</p>
+              <span> 
+                <!-- <a href="javascript:void" > <i class="fab fa-twitter"></i> </a>  -->
+                <a target="_blank" href="https://www.linkedin.com/in/thomas-young-999a6a20b/" ><i class="fab fa-linkedin"></i> </a></span>
             </div>
           </div>
         </div>

@@ -308,6 +308,9 @@
   .banner-bg {
     padding: 60px 0px;
 }
+.teams-head > h3{
+  font-size: 24px;
+}
 .banner-content > p{
   font-size: 28px;
 }

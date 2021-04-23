@@ -340,6 +340,9 @@ button {
 .dark-theme .table > tbody tr {
   border-bottom: 1px solid #e0e6ed45;
 }
+.table > tbody::before{
+  display: none!important;
+}
 .dark-theme .table > tbody > tr > td {
   color: #e7e7e7;
 }
@@ -526,6 +529,47 @@ button {
   padding: 120px 0px;
 }
 
+/* team section css open here */
+
+#teams-sec{
+  background-color: #4a1075;
+  padding: 60px 0px;
+}
+.teams-head > h3{
+    margin: 0px;
+    font-weight: 700;
+    font-size: 36px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.team-box{
+  text-align: center;
+  margin-top: 50px;
+}
+.team-box > h3{
+  margin: 0px;
+  font-weight: 600;
+  font-size: 24px;
+  color: #fff;
+  margin-top: 15px;
+}
+.team-box > p{
+  margin: 0px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  margin-top: 5px;
+}
+.team-box > span > a > i {
+  display: inline-block;
+  padding: 7px;
+  font-size: 20px;
+  color: #fff;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+/* team section css close here */
 .gotoapp{
   min-width: 130px;
     height: 33px;
@@ -931,3 +975,385 @@ button {
   display: inline-block;
     margin-top: 3px;
 }
+
+
+
+/* upcoming page css open here */
+
+#upcoming-sec{
+  padding: 60px 0px;
+}
+.upcoming-head > h3{
+  margin: 0px;
+  font-weight: 700;
+  font-size: 33px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.upcoming-box{
+  background-color: #4a1075;
+  padding: 20px;
+  border-radius: 10px;
+}
+.hours-btn > button{
+  min-width: 160px;
+  height: 48px;
+  line-height: 48px;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 0 20px;
+  text-align: center;
+  background-size: 200% auto;
+  color: #fff;
+  box-shadow: 0 3ox 20px rgba(0,0,0,.1);
+  border-radius: 100px;
+  background-color: #ce5097;
+  background-image: linear-gradient(to right, #ce5097 , #ce0025);
+  transition: all .5s;
+  border: none;
+  box-shadow: 0 7px 12px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+.hours-btn-wrp{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5px;
+}
+.upcoming-box > h3{
+  margin: 0px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 20px;
+  margin-top: 15px;
+}
+.upcoming-box > p{
+  margin: 0px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  margin-top: 15px;
+}
+.upcoming-box > span{
+  display: inline-block;
+  color: #ff4d6d;
+  font-size: 20px;
+  margin-top: 15px;
+  
+}
+.location-wrp{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+.location-child1 > p{
+  margin: 0px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+.location-child1 > span{
+  display: inline-block;
+  font-weight: 400;
+  font-size: 18px;
+  color: #ff4d6d;
+  margin-top: 15px;
+}
+/* upcoming pagess css close here */
+
+/* pool pages css open here */
+#pool-sec{
+  padding: 60px 0px;
+}
+.pool-head > h3{
+  margin: 0px;
+  font-weight: 700;
+  font-size: 33px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.search-box-a{
+  border: 1px solid #634d7d;
+    border-radius: 32px;
+    padding: 10px;
+}
+.search-box-a > span > i{
+  color: #fff;
+  font-size: 16px;
+}
+.search-box-a > input{
+  display: inline-block;
+  width: 80%;
+  margin-left: 15px;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 15px;
+  color: #fff;
+}
+.table-a{
+  margin-top: 20px;
+  border: 1px solid #4a1075;
+  padding: 20px;
+  padding-bottom: 0px;
+  border-radius: 16px;
+}
+.blank-th{
+  display: inline-block;
+  width: 200px;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+  color: #7e748d;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #7e748d;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #7e748d;
+}
+.filled{
+  display: inline-block;
+    background-color: #15b47e;
+    color: #fff;
+    padding: 4px 20px;
+    border-radius: 32px;
+    margin-top: -7px;
+}
+.closed{
+  display: inline-block;
+    background-color: #ff4d6d;
+    color: #fff;
+    padding: 4px 20px;
+    border-radius: 32px;
+    margin-top: -7px;
+}
+/* pool pages css close here */
+
+
+/* poldex css open here */
+#poldex-sec{
+  padding: 60px 0px;
+}
+.poldex-wrp{
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #4a1075;
+  padding: 30px 20px;
+  border-radius: 16px;
+}
+.poldex-child1 > h3{
+   margin: 0px;
+    font-weight: 700;
+    font-size: 33px;
+    color: #fff;
+}
+.poldex-child1 > p{
+  margin: 0px;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ff4c6d;
+  margin-top: 5px;
+}
+.wrp-join-btn{
+  margin-top: 15px;
+}
+.wrp-join-btn > button{
+  min-width: 160px;
+    height: 48px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 0 20px;
+    text-align: center;
+    background-size: 200% auto;
+    color: #fff;
+    box-shadow: 0 3ox 20px rgba(0,0,0,.1);
+    border-radius: 100px;
+    background-color: #ce5097;
+    background-image: linear-gradient(to right, #ce5097 , #ce0025);
+    transition: all .5s;
+    margin-top: 4px;
+    border: none;
+    box-shadow: 0 7px 12px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+.wrp-join-btn > a.btn-view{
+  min-width: 160px;
+    height: 48px;
+    font-size: 14px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 12px;
+    text-align: center;
+    background-size: 200% auto;
+    color: #fff;
+    box-shadow: 0 3ox 20px rgba(0,0,0,.1);
+    border-radius: 100px;
+    background-color: #ce5097;
+    background-image: linear-gradient(to right, #ce5097 , #ce0025);
+    transition: all .5s;
+    margin-top: 4px;
+    border: none;
+    box-shadow: 0 7px 12px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+.btn-view{
+  background-color: transparent! important;
+    background-image: none! important;
+    box-shadow: none! important;
+    border: 1px solid #fff! important;
+    margin-left: 15px;
+}
+.publish-wpr{
+   display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.publish-child1 > p{
+  margin: 0px;
+}
+.publish-child1 > p > span{
+  display: inline-block;
+  color: #fff;
+  font-size: 16px;
+  vertical-align: middle;
+  margin-left: 10px;
+}
+.publish-child2 > p{
+  margin: 0px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #fff;
+  margin-left: 20px;
+}
+.publish-child2 > p > span{
+  display: inline-block;
+  background-color: #15b47e;
+  color: #fff;
+  padding: 4px 20px;
+  border-radius: 32px;
+  margin-right: 20px;
+}
+.poldex-child2{
+  width: 450px;
+  background-color: #fff;
+  border-radius: 16px;
+  padding: 20px;
+}
+.sw-amount-wrp{
+  display: flex;
+  justify-content: space-between;
+}
+.sw-child1 > p{
+  margin: 0px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #000;
+  margin-bottom: 8px;
+}
+.sw-child1 > h3{
+  margin: 0px;
+  font-weight: 600;
+  font-size: 24px;
+  color: #ff4c6d;
+  margin-bottom: 8px;
+}
+.sw-child1 > span{
+  color: #ff4d6d;
+  font-size: 22px;
+}
+.sw-child2{
+  text-align: right;
+}
+.sw-child2 > p{
+  margin: 0px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #ff4d6d;
+  margin-bottom: 15px;
+}
+.sw-child2 > span{
+  font-weight: 600;
+  font-size: 16px;
+  color: #807f7f;
+}
+.poldex-child2 > p{
+  margin: 0px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #000;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+.progress-content-wrp{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 8px;
+}
+.progress-child1 > p{
+  margin: 0px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #4b4b4b;
+}
+.progress-child2 > p{
+  margin: 0px;
+  font-weight: 600;
+  font-size: 16px;
+  color: #4b4b4b;
+}
+.progress-child1 > p > span{
+  display: inline-block;
+  color: #ff4c6d;
+  margin-right: 20px;
+}
+.p-details-h > h3{ 
+  margin: 0px;
+  font-weight: 700;
+  font-size: 33px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+.pool-info-box{
+  border: 1px solid #4a1075;
+  border-radius: 16px;
+}
+.pool-info-box > p{
+  margin: 0px;
+  font-size: 16px;
+  color: #aaaaaa;
+  padding: 15px 20px;
+}
+.info-list {
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+.info-list > li{
+  border-top: 1px solid #4a1075;
+}
+.info-list-content{
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 20px;
+}
+.info-list-child1 > p{
+  margin: 0px;
+  font-size: 14px;
+  color: #fff;
+}
+.info-list-child2 > p{
+  margin: 0px;
+  font-size: 14px;
+  color: #fff;
+}
+.poldex-child1{
+  margin-top: 30px;
+}
+#p-details{
+  padding-bottom: 60px;
+}
+/* poldex css close here */

@@ -26,6 +26,12 @@
                     <router-link to="/">Home</router-link>
                   </li>
                   <li aria-haspopup="true">
+                    <router-link to="/upcoming">Upcoming</router-link>
+                  </li>
+                  <li aria-haspopup="true">
+                     <router-link to="/pooldetails">Pool</router-link>
+                  </li>
+                  <li aria-haspopup="true">
                     <a href="#features-sec">Features</a>
                   </li>
                   <li aria-haspopup="true">
@@ -102,6 +108,7 @@
 </template>
 
 <script>
+ 
 // @ is an alias to /src
 /* eslint-env jquery */
 export default {
@@ -199,6 +206,14 @@ export default {
             } 
           });
           jQuery(window).trigger("resize");
+          
+          jQuery(".horizontalMenu > .horizontalMenu-list > li > a").click(function(){
+            jQuery("body").toggleClass("active");
+
+          })
+
+
+
         });
       })()
     );
